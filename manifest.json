@@ -1,0 +1,23 @@
+{
+  "name": "Show passwords",
+  "version": "1.0",
+  "description": "Clicking on this will toggle showing all the text in the password inputs on this webpage",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16" : "lock.png",
+    "32" : "lock.png",
+    "48" : "lock.png",
+    "128" : "lock.png"
+  },
+  "browser_action": {
+    "default_icon": "lock.png",
+    "default_title": "Click to show all passwords on the page"
+  },
+  "manifest_version": 2
+}
