@@ -17,7 +17,7 @@
   },
   "browser_action": {
     "default_icon": "lock.png",
-    "default_title": "Click to show all passwords on the page"
+    "default_title": "Click to toggle all passwords on the page"
   },
   "manifest_version": 2
 }
