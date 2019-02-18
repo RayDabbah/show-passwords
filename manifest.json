@@ -2,22 +2,28 @@
   "name": "Show passwords",
   "version": "1.0",
   "description": "Clicking on this will toggle showing all the text in the password inputs on this webpage",
-  "permissions": [
-    "activeTab"
-  ],
+  "permissions": ["activeTab"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
   "icons": {
-    "16" : "lock.png",
-    "32" : "lock.png",
-    "48" : "lock.png",
-    "128" : "lock.png"
+    "16": "lock.png",
+    "32": "lock.png",
+    "48": "lock.png",
+    "128": "lock.png"
   },
   "browser_action": {
     "default_icon": "lock.png",
     "default_title": "Click to toggle all passwords on the page"
+  },
+  "commands": {
+    "togglePasswords": {
+      "suggested_key": {
+        "default": "Alt+P"
+      },
+      "description": "Toggle all passwords on the page"
+    }
   },
   "manifest_version": 2
 }
