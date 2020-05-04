@@ -1,12 +1,14 @@
-chrome.browserAction.onClicked.addListener(function() {
+chrome.browserAction.onClicked.addListener(function () {
   chrome.tabs.executeScript({
-    file: "./showPass.js"
+    file: "./showPass.js",
   });
 });
-chrome.commands.onCommand.addListener(function(command) {
-  if (command === "togglePasswords") {
+
+chrome.commands.onCommand.addListener(function (command) {
+  console.log(command);
+  if (command === "toggle-passwords") {
     chrome.tabs.executeScript({
-      file: "./showPass.js"
+      file: "./showPass.js",
     });
   }
 });

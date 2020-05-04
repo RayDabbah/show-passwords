@@ -18,11 +18,11 @@
     "default_title": "Click to toggle all passwords on the page"
   },
   "commands": {
-    "togglePasswords": {
+    "toggle-passwords": {
       "suggested_key": {
         "default": "Alt+P"
       },
-      "description": "Toggle all passwords on the page"
+      "description": "Toggle all password inputs from/to regular inputs"
     }
   },
   "manifest_version": 2
