@@ -2,9 +2,13 @@
   "name": "Show passwords",
   "version": "1.0",
   "description": "Clicking on this will toggle showing all the text in the password inputs on this webpage",
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab"
+  ],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": [
+      "background.js"
+    ],
     "persistent": false
   },
   "icons": {
@@ -20,7 +24,7 @@
   "commands": {
     "toggle-passwords": {
       "suggested_key": {
-        "default": "Alt+P"
+        "default": "Alt+S"
       },
       "description": "Toggle all password inputs from/to regular inputs"
     }
