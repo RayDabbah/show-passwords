@@ -1,5 +1,6 @@
 {
   "name": "Show passwords",
+  "title": "A Simple Password Toggling Extension",
   "version": "1.0",
   "description": "Clicking on this will toggle showing all the text in the password inputs on this webpage",
   "permissions": ["activeTab"],
