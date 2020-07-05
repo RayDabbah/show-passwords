@@ -11,3 +11,7 @@ chrome.commands.onCommand.addListener(function (command) {
     });
   }
 });
+
+chrome.runtime.onMessage.addListener((req) =>
+  chrome.browserAction.setIcon(req)
+);

@@ -2,13 +2,9 @@
   "name": "Show passwords",
   "version": "1.0",
   "description": "Clicking on this will toggle showing all the text in the password inputs on this webpage",
-  "permissions": [
-    "activeTab"
-  ],
+  "permissions": ["activeTab"],
   "background": {
-    "scripts": [
-      "background.js"
-    ],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "icons": {
